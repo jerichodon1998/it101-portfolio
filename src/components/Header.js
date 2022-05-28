@@ -7,24 +7,25 @@ export default function Header() {
 	const navigate = useNavigate();
 
 	const NormalMenu = (
-		<Box>
+		<>
 			<Button variant="text" style={{ color: "#fff" }} onClick={() => navigate("/")}>
 				Home
 			</Button>
 			<Button variant="text" style={{ color: "#fff" }} onClick={() => navigate("/about")}>
 				About
 			</Button>
-		</Box>
+		</>
 	);
 
 	return (
 		<Box
 			style={{
 				padding: "10px 20px",
-				textAlign: "right",
+				textAlign: "left",
 			}}
 		>
 			{NormalMenu}
+			<hr />
 		</Box>
 	);
 }

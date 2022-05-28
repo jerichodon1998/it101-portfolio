@@ -11,7 +11,7 @@ const cardStyle = { display: "flex", justifyContent: "center" };
 
 export default function About() {
 	return (
-		<Box style={{ margin: "30px" }}>
+		<Box style={{ margin: "30px", padding: "10px" }}>
 			<h1 style={{ textAlign: "center" }}>About me</h1>
 			<Box mb={2}>
 				I am Mark Jericho G. Manilag, currently studying BS Computer Science at{" "}
